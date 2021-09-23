@@ -1,0 +1,2 @@
+iostream is a standard header. iostream.h is a non-standard header that was very common in pre-standard C++, and is what iostream evolved from. It's still common to have iostream.h around, presumably for use with older programs.
+If your implementation have a working copy of iostream.h, it is probably the same as iostream except that everything in iostream is in the std namespace, while iostream.h generally preceded namespaces, and didn't use them.
